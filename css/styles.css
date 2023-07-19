@@ -142,3 +142,38 @@ body {
 }
 
 /* End of Our work section */
+
+/* Our team section */
+.our-team-container {
+  background-color: var(--color-light);
+}
+.our-team-title {
+  color: var(--color-dark);
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+
+  text-transform: capitalize;
+}
+.our-team-list {
+  list-style: none;
+}
+.our-team-card {
+  background-color: var(--color-white-background);
+}
+.our-team-label {
+  color: var(--color-dark);
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.our-team-description {
+  color: var(--color-text);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* End of Our team section */
