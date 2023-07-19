@@ -13,9 +13,10 @@
   --color-modal-background: #2e2f42;
 }
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+
   color: var(--color-text);
+  font-weight: 400;
 
   /* font-weight: 400;
   font-size: 16px;
@@ -27,6 +28,8 @@ body {
 }
 .header-logo {
   color: var(--color-dark);
+
+  font-family: "Raleway", sans-serif;
 
   font-size: 18px;
   font-weight: 800;
@@ -53,7 +56,8 @@ body {
 
   text-decoration: none;
 }
-.menu-item:active {
+.menu-item:focus,
+.menu-item:hover {
   color: var(--color-pressed);
 }
 
@@ -62,16 +66,16 @@ body {
 }
 
 .contact-item-link {
-  color: var(--color-text);
-
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 
   text-decoration: none;
 }
-.contact-item-link:active {
+.contact-item-link:focus {
+  color: var(--color-pressed);
+}
+.contact-item-link:hover {
   color: var(--color-pressed);
 }
 /*End of Header section */
@@ -106,6 +110,7 @@ body {
   outline: none;
   cursor: pointer;
 }
+.hero-button:focus,
 .hero-button:hover {
   background-color: var(--color-pressed);
 }
@@ -124,10 +129,7 @@ body {
   letter-spacing: 0.4px;
 }
 .company-values-description {
-  color: var(--color-text);
-
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -180,10 +182,7 @@ body {
   letter-spacing: 0.4px;
 }
 .our-team-description {
-  color: var(--color-text);
-
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -198,6 +197,8 @@ body {
 }
 .footer-logo {
   color: var(--color-light);
+
+  font-family: "Raleway", sans-serif;
 
   font-size: 18px;
   font-weight: 800;
@@ -214,7 +215,6 @@ body {
   color: var(--color-light);
 
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
@@ -236,7 +236,8 @@ body {
   outline: none;
   cursor: pointer;
 }
-.filter-button:active {
+.filter-button:focus,
+.filter-button:hover {
   color: var(--color-white-background);
   background-color: var(--color-pressed);
 
@@ -244,6 +245,7 @@ body {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08),
     0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
+
 /* End of Filter section */
 
 /* Gallery section */
@@ -263,10 +265,7 @@ body {
   letter-spacing: 0.4px;
 }
 .gallery-image-description {
-  color: var(--color-text);
-
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
