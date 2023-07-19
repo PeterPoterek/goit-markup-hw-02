@@ -26,7 +26,7 @@ body {
 .header-container {
   background-color: var(--color-white-background);
 }
-.logo {
+.header-logo {
   color: var(--color-dark);
 
   font-size: 18px;
@@ -36,7 +36,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.logo-highlighted {
+.header-logo-highlighted {
   color: var(--color-primary);
 }
 
@@ -177,3 +177,32 @@ body {
   line-height: 1.5;
 }
 /* End of Our team section */
+
+/* Footer section */
+.footer-container {
+  background-color: var(--color-dark);
+}
+.footer-list {
+  list-style: none;
+}
+.footer-logo {
+  color: var(--color-light);
+
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.1666667;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer-logo-highlighted {
+  color: var(--color-primary);
+}
+.footer-text {
+  color: var(--color-light);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* End of Footer section */
