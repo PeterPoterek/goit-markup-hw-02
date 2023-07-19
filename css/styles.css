@@ -13,15 +13,11 @@
   --color-modal-background: #2e2f42;
 }
 body {
-  font-family: "Roboto", sans-serif;
-
   color: var(--color-text);
   font-weight: 400;
-
-  /* font-weight: 400;
-  font-size: 16px;
-  line-height: 24px; */
+  font-family: "Roboto", sans-serif;
 }
+
 /* Header section */
 .header-container {
   background-color: var(--color-white-background);
@@ -72,12 +68,11 @@ body {
 
   text-decoration: none;
 }
+.contact-item-link:hover,
 .contact-item-link:focus {
   color: var(--color-pressed);
 }
-.contact-item-link:hover {
-  color: var(--color-pressed);
-}
+
 /*End of Header section */
 
 /* Main */
