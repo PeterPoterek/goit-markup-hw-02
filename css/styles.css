@@ -92,10 +92,14 @@ body {
   font-weight: 700;
   line-height: 1.0714286;
   letter-spacing: 1.12px;
+
+  text-align: center;
 }
 .hero-button {
   color: var(--color-white-background);
   background-color: var(--color-primary);
+
+  font-family: "Roboto", sans-serif;
 
   font-size: 16px;
   font-weight: 500;
@@ -142,6 +146,7 @@ body {
   letter-spacing: 0.72px;
 
   text-transform: capitalize;
+  text-align: center;
 }
 .our-work-list {
   list-style: none;
@@ -162,6 +167,7 @@ body {
   letter-spacing: 0.72px;
 
   text-transform: capitalize;
+  text-align: center;
 }
 .our-team-list {
   list-style: none;
@@ -223,6 +229,8 @@ body {
 .filter-item {
   color: var(--color-primary);
   background-color: var(--color-light);
+
+  font-family: "Roboto", sans-serif;
 
   font-size: 16px;
   font-weight: 500;
